@@ -1,14 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
 	<meta charset="utf-8">
 	<title>Средства для ухода</title>
-  </head>
+</head>
 </html>
 <body>
 	<header class="main_header">
 		<div class="container">
-		  <div class="logo-icon"><img src="http://placehold.it/150x100"></div>
+		  <div class="logo-icon"><img src="http://placehold.it/150x100" width="150px" height="100" title="Логотип"></div>
 		  <nav class="main-navigation">
 			<ul>
             <li>
@@ -35,14 +35,14 @@
 	</header>
 <main class="container">
   <div class="block1">	
-	<span class="title-of-page">Средства для ухода</span>
+	<h1 class="title-of-page">Средства для ухода</h1>
 	<ul class="breadcrumbs">
 	  <li><a href="#">Главная</a></li>
 	  <li><a href="#">Магазин</a></li>
-	  <li><a href="#">Средства для ухода</a></li> 
+	  <li><span>Средства для ухода</span></li> 
 	</ul>
   </div>
-  <div class="left_column">
+  <aside class="left_column">
   	<div class="produce">
   		<h2>Производители:</h2>
   		<form action="" method="get">
@@ -63,51 +63,63 @@
   		</form>
   	</div>
   	<a class="btn" href="#">Показать</a>
-  </div>
+  </aside>
   <div class="catalog">
   	<section class="catalog_item">
-  		<img src="http://placehold.it/150x100">
+  		<img src="http://placehold.it/150x100" width="150px" height="100" alt="Набор для путешествий BAXTER OF CALIFORNIA">
   		<p class="title_of_item">Набор для путешествий "BAXTER OF CALIFORNIA"</p>
-  		<p class="price">2 900 РУБ.</p>
-  		<a class="buy" href="#">КУПИТЬ</a>
+  		<div class="catalog_price">
+        <p class="price">2 900 РУБ.</p>
+  		  <a class="buy" href="#">КУПИТЬ</a>
+       </div> 
   	</section>
   	<section class="catalog_item">
-  		<img src="http://placehold.it/150x100">
+  		<img src="http://placehold.it/150x100" width="150px" height="100" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA">
   		<p class="title_of_item">Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</p>
-  		<p class="price">750 РУБ.</p>
-  		<a class="buy" href="#">КУПИТЬ</a>
-  	</section>
+  		<div class="catalog_price"> 
+        <p class="price">750 РУБ.</p>
+  		  <a class="buy" href="#">КУПИТЬ</a>
+      </div>  	
+    </section>
   	<section class="catalog_item">
-  		<img src="http://placehold.it/150x100">
+  		<img src="http://placehold.it/150x100" width="150px" height="100" alt="Гель для волос SUAVECITO">
   		<p class="title_of_item">Гель для волос "SUAVECITO"</p>
-  		<p class="price">290 РУБ.</p>
-  		<a class="buy" href="#">КУПИТЬ</a>
+  		<div class="catalog_price"> 
+        <p class="price">290 РУБ.</p>
+  		  <a class="buy" href="#">КУПИТЬ</a>
+      </div> 
   	</section>
   	<section class="catalog_item">
-  		<img src="http://placehold.it/150x100">
+  		<img src="http://placehold.it/150x100" width="150px" height="100" alt="Гель для укладки волос AMERICAN CREW">
   		<p class="title_of_item">Гель для укладки волос "AMERICAN CREW"</p>
-  		<p class="price">500 РУБ.</p>
-  		<a class="buy" href="#">КУПИТЬ</a>
+  		<div class="catalog_price">  
+        <p class="price">500 РУБ.</p>
+  		  <a class="buy" href="#">КУПИТЬ</a>
+      </div>  
   	</section>
   	<section class="catalog_item">
-  		<img src="http://placehold.it/150x100">
+  		<img src="http://placehold.it/150x100" width="150px" height="100" alt="Гель для волос AMERICAN CREW>
   		<p class="title_of_item">Гель для волос "AMERICAN CREW"</p>
-  		<p class="price">300 РУБ.</p>
-  		<a class="buy" href="#">КУПИТЬ</a>
+  		<div class="catalog_price">
+        <p class="price">300 РУБ.</p>
+  		  <a class="buy" href="#">КУПИТЬ</a>
+      </div>  
   	</section>
   	<section class="catalog_item">
-  		<img src="http://placehold.it/150x100">
+  		<img src="http://placehold.it/150x100" width="150px" height="100" alt="Набор для бритья BAXTER OF CALIFORNIA>
   		<p class="title_of_item">Набор для бритья "BAXTER OF CALIFORNIA"</p>
-  		<p class="price">3 900 РУБ.</p>
-  		<a class="buy" href="#">КУПИТЬ</a>
+  		<div class="catalog_price">
+        <p class="price">3 900 РУБ.</p>
+  		  <a class="buy" href="#">КУПИТЬ</a>
+      </div>  
   	</section>
   </div>
-  <div class="pages">
-  	<a href="#">1</a>
-  	<a href="#">2</a>
-  	<a href="#">3</a>
-  	<a href="#">4</a>
-  </div>
+  <ul class="pages">
+  	<li><a href="#">1</a></li>
+  	<li><a href="#">2</a></li>
+  	<li><a href="#">3</a></li>
+  	<li><a href="#">4</a></li>
+  </ul>
 </main>
 <footer class="main_footer">
       <div class="container">
@@ -118,10 +130,12 @@
           Телефон: +7 (812) 666-02-66
         </section>
         <section class="social">
-          <p>Давайте дружить!</p>
-          <a class="social_vk" href="#">Вконтакте</a>
-          <a class="social_fb" href="#">Фейсбук</a>
-          <a class="social_inst" href="#">Инстаграм</a>
+          <span>Давайте дружить!</span>
+          <ul>
+            <li><a class="social_vk" href="#">Вконтакте</a></li>
+            <li><a class="social_fb" href="#">Фейсбук</a></li>
+            <li><a class="social_inst" href="#">Инстаграм</a></li>
+          </ul>  
         </section>
         <section class="copyright">
           <p>Разработано:</p>
